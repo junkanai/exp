@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Results
+results
+
+# Tests
+*test.cpp
+
+# Datasets
+tool/mnist/raw/*
