@@ -1,3 +1,4 @@
+#include "parts/vec_parts_headers.cpp"
 #include "parts/vec_parts_vec4.cpp"
 #include "parts/vec_parts_vec3.cpp"
 #include "parts/vec_parts_vec2.cpp"
