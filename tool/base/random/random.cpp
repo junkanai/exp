@@ -1,6 +1,0 @@
-#include "parts/random_base.cpp"
-#include "parts/random_vec4.cpp"
-#include "parts/random_vec3.cpp"
-#include "parts/random_vec2.cpp"
-#include "parts/random_vec1.cpp"
-#include "parts/random_vec0.cpp"
