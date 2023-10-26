@@ -8,14 +8,6 @@ decltype(std::end(data)) end()
 	return std::end(data);
 }
 
-template<class U>
-Vec<U, X, Y, Z, W> to() const
-{
-	Vec<U, X, Y, Z, W> rtn;
-	rep(i, N) rtn(i) = (U)data[i];
-	return rtn;
-}
-
 static Self seq(T step = 1, T start = 0, T ladder = 0)
 {
 	Self rtn;

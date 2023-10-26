@@ -16,6 +16,14 @@ public:
 #include "shares/operators.cpp"
 #include "shares/funcs.cpp"
 
+	template<class U>
+	Vec<U, X> to() const
+	{
+		Vec<U, X> rtn;
+		rep(i, N) rtn(i) = (U)data[i];
+		return rtn;
+	}
+
 	T&       operator[](size_t x)
 	{
 		return data[x];
