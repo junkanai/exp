@@ -40,7 +40,7 @@ public:
 	Rnd() : begin(0), scale(1) { init(); }
 	Rnd(double range) : begin(0), scale(range) { init(); }
 	Rnd(double range_begin, double range_end) : begin(range_begin), scale(range_end - range_begin) { init(); }
-	Vec<double, X, Y, Z, W> operator()()
+	Vec<double, W, Z, Y, X> operator()()
 	{
 		Vec<double, W, Z, Y, X> rtn;
 		rep(i, X*Y*Z*W) {
