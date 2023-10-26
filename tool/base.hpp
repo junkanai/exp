@@ -1,7 +1,7 @@
 #pragma once
 
-#include "macros/macros.cpp"
-#include "usings/usings.cpp"
-#include "vec/vec.cpp"
-#include "random/random.cpp"
-#include "print/print.cpp"
+#include "base/macros/macros.cpp"
+#include "base/usings/usings.cpp"
+#include "base/vec/vec.cpp"
+#include "base/random/random.cpp"
+#include "base/print/print.cpp"
