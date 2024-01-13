@@ -1,0 +1,4 @@
+1-3   26: ternary, sparse13
+4-6   24: binary, sparse31
+7-9   25: float, sparse22
+10-12 27: sparsehypot
